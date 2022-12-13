@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.AboutUs">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/editTextTextMultiLine5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:paddingBottom="15dp"
+            android:text="              Inspired by the Christian faith and the ideas of academe, the Blesses Angels Achiever Academy School envision itself to develop sits students, young and innocent as they are to be God-fearing and achievements- oriented individuals. In line with the institutions mission to produce responsible and morally upright leaders, it also envisages itself to be the continuing guide of its students towards all facets of their dynamic future.                                            "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/editTextTextMultiLine4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="              The mission Blessed Angels Achievers School is to prepare the youth to be socially responsible leaders carrying strong moral foundation balance with quality education and profound spiritually. The institutions also aim to produce learned and well-rounded individuals to become active participants in an increasingly diverse and rapidly changing world. It also seeks to produce a generation of young thinkers and achievers who can work together collaboratively, thus, promoting oneness and cooperation among themselves and consequently, to the whole.                                                 "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:elevation="10dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:id="@+id/go_imageAbout"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="ABOUT US"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+            app:layout_constraintEnd_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toTopOf="@+id/textView11"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/location" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/profileName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:gravity="center"
+            android:text="ABOUT US"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="HISTORY"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.226"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileName4" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/segoe_ui"
+            android:gravity="center"
+            android:text="Poblacion 2438 San Manuel Pangasinan"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:gravity="center"
+            android:text="BLESSED ANGELS ACHIEVERS ACADEMY"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="8dp"
+            android:text="              San Manuel are very intelligent. Where they are sure to stand out, as many of its people have already established. The literary legend Juan C. Laya had proven to the world that he was one of the best literary people that lived the millennium. In the same way, many San Manuellians graduated Summa Cum Laude, Magna Cum Laude, and Cum laude from the most respectable Universities in the Philippines like the University of the Philippines, University of Santo Thomas, and Saint Louis University, to name a few. It is also known fact that a number of students from San Manuel showed their intellectual prowess, and graduated Valedictorian in the school from the nearby towns. Primo Angelo Loveranes Galamgam and Yvadelle Krisandra Loveranes Suller and countless others are living testimonies that people from San Manuel can be the best. I Imelda Loveranes Galamgam, a business woman and a mother, began to wonder why these brilliant students need to study nearby towns while there are a few schools extant in San Manuel. What thing were missing in these schools why I choose to send my kids as well as my nieces and nephew to Binalonan and Urdaneta City is to study and this was the big question that started it all. As a mother and a tutor to my kids, the standard of a good school is not met by the school in San Manuel. I might as well put up a school that will care to all the needs of a student’s so that they don’t need to go somewhere else to get that quality education all mothers want for their children. Being the director of the school and as a mother, I wanted the school to be not only an institution of learning but also leadership and firm decisiveness for I believe that character is one of the most important tasks a school should develop in it students. It has not been an easy decision erecting the school because Academic work is not at all that simple and easy. Paper works need to be submitted every now and then, intensive supervising is required, and professional administrative work can be very tough. However, despite all these in the name of high-quality education. I took the challenges and pushed through with the construction of the school after going through seminars and advising from Mr. Eddie Canave-principal and Mrs. Edna Cavane, director and owner of Xavierde Carbrini School in Baguio City. I was very happy when Mrs. Lily C. Moraleda of barangay Flores enrolled her Son Leafar in our school and I said to my Self “Yes” I have one already. The faculty have also been chosen by me in terms of trust and competence. Among the first members of the teaching staff was teacher Venus, one of the top choices, because of her performance and experience and presence’s impact to the student’s effect. Teacher Riza, Jenny, Haidee, Imelda, and Alma were also among my top choices, so they were hired the first academic year. Teacher Venus was chosen administrative assistant because of her accuracy and keenness to details and organization. The Mission-Vission of our school was made by my nephew, Cristian Carlo Loveranes Suller, a journalism graduate from the University of Santo Thomas. The name of the school was agreed by me and my husband, primo who is now the Administrator. At present, there are 72 students currently enrolled from the nursery up to the first grade. We have 14 rooms including the administration building. BAAS is gaining praises for its quality education, competitive tuition and fees, able teacher, convenient location, and benevolent administrators. With these improvements in just a year span, Blessed Angels is a promising school.                        "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="MISSION"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.226"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="VISION"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

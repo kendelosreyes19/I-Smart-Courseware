@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.smallacademy.authenticatorapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".authenticatorapp.activity.ScoresActivity"
+            android:exported="true"
+            android:label="@string/title_activity_scores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Reviewer"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Strands"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ContactUs"
+            android:exported="true"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AboutUs"
+            android:exported="true"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Joblist"
+            android:exported="true"
+            android:label="@string/title_activity_joblist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- Quiz -->
+        <activity
+            android:name=".authenticatorapp.activity.ResultActivity"
+            android:theme="@style/AppThemeBar" />
+        <activity android:name=".authenticatorapp.activity.SetsActivity" />
+        <activity android:name=".authenticatorapp.activity.CategoryActivity" />
+        <activity android:name=".authenticatorapp.QuizSplashActivity" />
+        <activity
+            android:name=".authenticatorapp.activity.QuizActivity"
+            android:theme="@style/AppThemeBar" /> <!-- quiz -->
+        <activity
+            android:name=".activity.Profile"
+            android:exported="true" />
+        <activity android:name=".activity.EditProfile" />
+        <activity android:name=".activity.Register" />
+        <activity
+            android:name=".activity.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

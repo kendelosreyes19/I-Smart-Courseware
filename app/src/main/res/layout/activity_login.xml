@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Login"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@drawable/background">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="240dp"
+     android:layout_weight="1">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="30dp"
+      android:orientation="vertical">
+
+   <ImageView
+       android:layout_width="180dp"
+       android:layout_height="180dp"
+       android:layout_gravity="center"
+       android:src="@drawable/logo" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="17dp"
+       android:autoSizeTextType="uniform"
+       android:fontFamily="@font/segoe_ui_bold"
+       android:gravity="center"
+       android:text="I - SMART COURSEWARE"
+       android:textColor="@color/white"
+       android:textSize="25dp" />
+  </LinearLayout>
+ </RelativeLayout>
+
+ <RelativeLayout
+     android:elevation="36dp"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="3"
+     android:background="@drawable/card_background">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="20dp"
+      android:fontFamily="@font/segoe_ui_bold"
+      android:text="LOGIN"
+      android:textColor="@color/black"
+      android:textSize="26dp" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/Email"
+       android:layout_width="match_parent"
+       android:layout_height="52dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:background="@drawable/custom_input"
+       android:drawableStart="@drawable/custom_email_icon"
+       android:drawablePadding="12dp"
+       android:fontFamily="@font/seg_ui_semibold"
+       android:hint="email"
+       android:inputType="textEmailAddress"
+       android:paddingLeft="26dp"
+       android:paddingRight="26dp"
+       android:textColor="@color/black"
+       android:textColorHint="#505050" />
+
+   <EditText
+       android:id="@+id/password"
+       android:layout_width="match_parent"
+       android:layout_height="52dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="15dp"
+       android:layout_marginRight="30dp"
+       android:background="@drawable/custom_input"
+       android:drawableStart="@drawable/custom_lock_icon"
+       android:drawablePadding="12dp"
+       android:fontFamily="@font/seg_ui_semibold"
+       android:hint="password"
+       android:inputType="textPassword"
+       android:paddingLeft="26dp"
+       android:paddingRight="26dp"
+       android:textColor="@color/black"
+       android:textColorHint="#505050" />
+
+   <CheckBox
+       android:id="@+id/showPassword"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Show Password"
+       android:layout_gravity="end"
+       android:layout_marginTop="15dp"
+       android:layout_marginEnd="40dp"
+       android:fontFamily="@font/seg_ui_semibold"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="65dp"
+       android:layout_marginTop="15dp"
+       android:layout_marginRight="30dp"
+       android:orientation="horizontal"
+       android:paddingBottom="10dp"
+       android:weightSum="2">
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:text="Forgot Password?"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_background"
+        android:elevation="6dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+   </LinearLayout>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_marginBottom="12dp"
+      android:layout_centerHorizontal="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="horizontal">
+
+   <ProgressBar
+       android:id="@+id/progressBar"
+       style="?android:attr/progressBarStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:visibility="invisible" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="50dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginLeft="12dp"
+       android:fontFamily="@font/seg_ui_semibold"
+       android:text="Don't have an account?"
+       android:textColor="@color/black"
+       android:textSize="15dp" />
+
+   <TextView
+       android:id="@+id/registerBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginLeft="12dp"
+       android:fontFamily="@font/seg_ui_semibold"
+       android:text="Register instead"
+       android:textColor="#0FA559"
+       android:textSize="15dp" />
+  </LinearLayout>
+ </RelativeLayout>
+</LinearLayout>

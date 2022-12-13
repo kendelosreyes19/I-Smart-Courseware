@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">I - Smart Courseware</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_notification" />
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="home">Home</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="joblist">JOBLIST</string>
+    <string name="title_activity_exam_page">ExamPage</string>
+    <string name="title_activity_reviewer_page">ReviewerPage</string>
+    <string name="title_activity_strands">Strands</string>
+    <string name="title_activity_reviewer">Reviewer</string>
+    <string name="title_activity_joblist">Joblist</string>
+    <string name="title_activity_about_us">AboutUs</string>
+
+    <string name="san_manuel_are_very_intelligent_where_they_are_sure_to_stand_out_as_many_of_its_people_have_already_have_established_the_literary_legend_juan_c_laya_had_proven_to_the_world_that_he_was_one_of_the_best_literary_people_that_lived_the_millennium">San Manuel are very intelligent. Where they are sure to stand out, as many of its people have already have established. The literary legend Juan C. Laya, had proven to the world that he was one of the best literary people that lived the millennium.</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+
+    <string name="messageWithLink"><a href="https://www.facebook.com/baaa2003">https://www.facebook.com/baaa2003</a></string>
+    <string name="linkSTEM"><a href="https://www.onlineshs.com/stem">https://www.onlineshs.com/stem</a></string>
+    <string name="linkABM"><a href="https://www.onlineshs.com/abm">https://www.onlineshs.com/abm</a></string>
+
+    <!--    Quiz-->
+
+    <string name="select_language">Select Language</string>
+    <string name="_1_10">1/10</string>
+    <string name="who_are_you">Who are you ?</string>
+    <string name="optionA">Robot</string>
+    <string name="optionB">Bot</string>
+    <string name="optionC">Human</string>
+    <string name="optionD">!Human</string>
+    <string name="your_score">Your Score. .</string>
+    <string name="all_level">All Level</string>
+    <string name="please_wait">Please wait....</string>
+    <string name="category">Category</string>
+    <string name="hello">HELLO</string>
+    <string name="your_account_has_been_successfully_created_and_you_may_now_log_in">Your account has been successfully created, and you may now log in.</string>
+    <string name="title_activity_scores"/>
+    <string name="reviewer">REVIEWER</string>
+    <string name="helloKa"><font fgcolor='#FF8E8E93'>Based on your scores, Our evaluation is that,
+we suggest you to take </font></string>
+
+
+</resources>
